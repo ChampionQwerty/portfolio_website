@@ -10,11 +10,22 @@ body {
     gap: 15px;
     padding: 20px;
     max-width: 800px;
-    margin: auto;
+    margin: auto; 
 }
 
 .image-grid a {
     display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.image-grid a:hover {
+    color: #007acc;
+    transform: scale(1.05);
 }
 
 .image-grid img {
@@ -22,7 +33,6 @@ body {
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
-
 }
 
 .image-grid img:hover {
@@ -49,6 +59,17 @@ p {
 
 .cert-image-grid a {
     display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.cert-image-grid a:hover {
+    color: #007acc;
+    transform: scale(1.05);
 }
 
 .cert-image-grid img {
@@ -56,7 +77,6 @@ p {
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
-
 }
 
 .cert-image-grid img:hover {
