@@ -82,3 +82,16 @@ p {
 .cert-image-grid img:hover {
     transform: scale(1.05);
 }
+
+.image-grid video,
+.cert-image-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid video:hover,
+.cert-image-grid video:hover {
+    transform: scale(1.05);
+}
